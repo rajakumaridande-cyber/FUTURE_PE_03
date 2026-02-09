@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    color: white;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+    position: fixed;
+    width: 100%;
+    padding: 18px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, #4a1d2d, #2a0d16);
+    z-index: 999;
+}
+
+.logo {
+    color: #ffb3ec;
+}
+
+nav a {
+    margin-left: 30px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* ===== HERO ===== */
+.hero {
+    height: 100vh;
+    background:
+        linear-gradient(rgba(120, 0, 100, 0.7), rgba(60, 0, 50, 0.85)),
+        url("hero-bg.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero button {
+    margin-top: 30px;
+    padding: 15px 40px;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+/* ===== SERVICES ===== */
+.services {
+    padding: 100px 30px;
+    background:
+        linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.9)),
+        url("service-bg.jpeg");
+    background-size: cover;
+}
+
+.services h2 {
+    text-align: center;
+    margin-bottom: 50px;
+    color: #ffb3ec;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+.card {
+    padding: 30px;
+    background: rgba(255,255,255,0.08);
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.2);
+}
+
+/* ===== CONTACT ===== */
+.contact {
+    padding: 100px 30px;
+    background: linear-gradient(to right, #2a0d16, #000);
+    text-align: center;
+}
+
+.contact h2 {
+    color: #ffb3ec;
+    margin-bottom: 30px;
+}
+
+.btn-group button {
+    margin: 15px;
+    padding: 14px 35px;
+    border-radius: 30px;
+    background: #d48bdc;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}

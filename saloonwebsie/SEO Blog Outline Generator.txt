@@ -1,0 +1,21 @@
+SEO Blog Outline Generator
+
+Generates:
+✔ H1–H3 structure
+✔ headings
+✔ FAQs
+✔ CTA
+
+Long Blog Generator
+Generates:
+✔ 1200–1500 words
+✔ SEO friendly
+✔ internal links
+✔ local keywords
+
+Content Cluster Generator
+Generates:
+✔ pillar page
+✔ supporting blogs
+✔ keywords
+✔ linking plan
